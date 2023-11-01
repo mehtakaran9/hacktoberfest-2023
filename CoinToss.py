@@ -24,5 +24,5 @@ def cointoss(n):
                 new_row.append('H')
         df.loc[i] = new_row
     return df
-input_number = input('Please input number of time to toss coin:')
+input_number = int(input('Please input number of time to toss coin:'))
 print(cointoss(input_number))

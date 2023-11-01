@@ -35,5 +35,5 @@ def rolldie(n):
         current_event = get_next_event(current_event)
     df.loc[count] = [6] * n
     return df
-input_number = input('Please input number of times to roll die:')
+input_number = int(input('Please input number of times to roll die:'))
 print(rolldie(input_number))

@@ -31,3 +31,8 @@ def ncr(n,r):
     for i in numerator:
         result *= i
     return result
+
+
+input_number_n = int(input('Please input number of distinct options (n):'))
+input_number_r = int(input('Please input number of selections (r):'))
+print(ncr(input_number_n,input_number_r))
